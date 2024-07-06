@@ -25,6 +25,9 @@
     #181818
 }
 
+.secondary-bg{
+    color: FFF8F3;
+}
 .btn-primary{
     background-color: #FD6E0A;
     border-radius: 5px;
@@ -35,10 +38,23 @@
     border: none;
 }
 
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.section-description{
+    font-weight: 400;
+    font-size: 18px;
+
+}
+
+ /* header background style */
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png); 
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    margin: 0px 0px 0px 20px;
 }
 
 /* nav styles */
@@ -98,4 +114,30 @@ nav ul li a{
 .banner-profile-pic{
     width: 584px;
     height: ;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+.about{
+    border-radius: 5px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-item{
+    font-size: 20;
+}
+.item-description{
+    font-weight: bold;
 }
