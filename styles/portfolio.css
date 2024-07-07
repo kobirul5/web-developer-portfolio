@@ -169,3 +169,9 @@ section{
     border-radius: 5 px;
     box-shadow: 0px 6px 50px 0px rgb(0, 0, 0.6);
 }
+
+/* section resume */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
