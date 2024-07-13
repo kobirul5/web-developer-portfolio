@@ -28,14 +28,14 @@
 .secondary-bg{
     color: FFF8F3;
 }
-.btn-primary{
+/* .btn-primary{
     background-color: #FD6E0A;
     border-radius: 5px;
     padding: 18px 36px 18px 36px;
     font-weight: 700;
     font-size: 20;
     color: white;
-    border: none;
+    border: none; */
 }
 
 .section-title{
@@ -214,8 +214,10 @@ footer{
     width: 50%;
     
 }
-
-footer input[type="text"], footer input[type="email"]{
+.footer-colum-title{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer input[type="text"]{
     height: 64px;
     border-radius: 5px;
     background-color: white;
@@ -223,4 +225,30 @@ footer input[type="text"], footer input[type="email"]{
     width: 100%;
     padding: 10px 20px;
     margin-bottom: 24px;
+    border: none;
+}
+
+/* Responsive for Mobile */
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width:576px){
+    .skill-container, .resume-container,footer{
+        flex-direction: column;
+    }
+    .footer-bg{
+        padding: 0px;
+    }
+    .footer-colum-title{
+        width: 100%;
+    }
+
+    #footer-massege{
+        width: 100%;
+    }
+    footer input[type="text"], footer input[type="email"]{
+        width: calc(100% - 40px);
+}
 }
