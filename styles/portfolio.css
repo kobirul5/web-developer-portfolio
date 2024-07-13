@@ -28,6 +28,12 @@
 .secondary-bg{
     color: FFF8F3;
 }
+.btn-primary{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+
 /* .btn-primary{
     background-color: #FD6E0A;
     border-radius: 5px;
@@ -205,8 +211,6 @@ footer{
     display: flex;
     gap: 100px;
     justify-content: space-between;
-    
-    
 
 }
 
@@ -235,9 +239,31 @@ footer input[type="text"], footer input[type="email"], footer input[type="text"]
 }
 
 @media screen and (max-width:576px){
-    .skill-container, .resume-container,footer{
+    nav,
+    nav > ul,
+    .banner,
+    .about-items,
+    .skill-container, 
+    .resume-container, 
+    footer{
         flex-direction: column;
     }
+
+    
+
+    .banner-profile-pic{
+        width: 100%;
+    }
+
+    .header{
+        background-image: none;
+    }
+
+    .banner{
+        margin: 15px;
+        
+    }
+    
     .footer-bg{
         padding: 0px;
     }
@@ -251,4 +277,19 @@ footer input[type="text"], footer input[type="email"], footer input[type="text"]
     footer input[type="text"], footer input[type="email"]{
         width: calc(100% - 40px);
 }
+.what{
+    padding: 10px;
+}
+
+.btn-primary{
+     margin: 10px;
+
+}
+
+#hire-me{
+    margin: 10px 0px;
+}
+
+
+
 }
